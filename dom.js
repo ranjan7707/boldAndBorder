@@ -1,15 +1,3 @@
-var items = document.getElementsByClassName('list-group-item');
-items[2].style.backgroundColor = 'green';
-//items[2].textContent = "Changed Name";
-//items[2].style.fontWeight = 'bold';
-
-for(var i = 0; i < items.length; i++){
-    items[i].style.fontWeight = 'bold';
-}
-
-var item = document.querySelector('.list-group-item');
-//item.style.color = 'green';
-
-for(var i = 0; i < items.length; i++){
-    items[i].style.color = 'yellow';
-}
+var NewItem= document.querySelector('.list-group-item:nth-child(5)');
+NewItem.style.color='blue';
+NewItem.style.backgroundColor= 'red';
